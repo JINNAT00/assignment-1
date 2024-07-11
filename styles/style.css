@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: 'Azeret Mono', monospace;
+    margin: 0 148px 0 152px;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+p {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+    gap: 20px;
+}
+
+.btn-primary {
+    color: #0D1321;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.container {
+    text-align: center;
+    margin: 26px 221px 45px 221px;
+}
+
+.banner-profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.banner {
+    background-image: url('assets/Hero-bg.png');
+    background-size: cover;
+    color: #0D1321;
+    text-align: center;
+}
+
+.btn-banner {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Main part styling */
+main {
+    padding: 80px 97px;
+ }
+ 
+ .web-development {
+     padding: 80px 97px;
+ }
+ 
+ .heading {
+     display: inline;
+     text-align: center;
+     padding: 0 47px 48px;
+ }
+ .body-container {
+    display: flex;
+    justify-content: space-between;
+    text-align:start;
+    padding: 48px;
+}
+.div1 {
+    padding: 0 64px 0 32px;
+}
+
+/* section two styling */
+
+.video-part {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.vid2 iframe {
+    max-width: 100%;
+}
+
+/* section 3  */
+.part-3 {
+    margin-top: 170px;
+}
+.section-three {
+    display: flex;
+    justify-content: space-between;
+    text-align:start;
+    padding: 40px;
+    gap: 24px;
+}
+.learn-more {
+    color: #0D1321;
+}
+.n-target5 {
+    padding-top: 111px;
+}
+.further-lesson {
+    display: flex;
+    justify-content: space-evenly;
+    text-align:start;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #0D132132;
+    gap: 24px;
+}
+.feedback {
+    text-align: center;
+    color: white;
+    margin: 50px 10px;
+}
+
+.feedback input[type="text"] {
+    color: #0D132110;
+    padding: 10px;
+    width: 300px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.feedback input[type="submit"] {
+    background-color: #FFFFFF;
+    color: #0D1321;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 100px;
+    background-color: #0D132103;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
